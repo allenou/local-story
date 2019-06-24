@@ -1,19 +1,18 @@
 {
-  "name": "store",
-  "version": "0.1.0",
-  "description": "",
+  "name": "story",
+  "version": "0.0.1",
   "main": "index.js",
+  "repository": "https://github.com/allenou/store.git",
+  "author": "AllenOu <allenseac@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development webpack --config webpack.config.js --mode=development -w",
+    "build": "NODE_ENV=production webpack --config webpack.config.js --mode=production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/allenou/store.git"
+  "dependencies": {
+    "webpack": "^4.34.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/allenou/store/issues"
-  },
-  "homepage": "https://github.com/allenou/store#readme"
+  "devDependencies": {
+    "webpack-cli": "^3.3.4"
+  }
 }
