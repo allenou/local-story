@@ -1,11 +1,12 @@
 {
-  "name": "story",
+  "name": "local-story",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/allenou/store.git",
+  "repository": "https://github.com/allenou/local-story.git",
   "author": "AllenOu <allenseac@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "publish": "npm publish --access public",
     "dev": "NODE_ENV=development webpack --config webpack.config.js --mode=development -w",
     "build": "NODE_ENV=production webpack --config webpack.config.js --mode=production"
   },

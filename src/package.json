@@ -1,5 +1,5 @@
 {
-  "name": "store",
+  "name": "@pigsking/store",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allenou/store.git"
+    "url": "git+https://github.com/pigsking/store.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allenou/store/issues"
+    "url": "https://github.com/pigsking/store/issues"
   },
-  "homepage": "https://github.com/allenou/store#readme"
+  "homepage": "https://github.com/pigsking/store#readme"
 }

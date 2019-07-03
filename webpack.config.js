@@ -6,8 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'story.js',
-    library: 'story',
+    filename: 'local-story.js',
+    library: 'local-story',
     libraryExport: 'default', 
     libraryTarget:'umd',
     globalObject: 'window',
