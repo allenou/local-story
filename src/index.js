@@ -1,6 +1,6 @@
 
 
-export const storage = {
+export const local = {
 
     getItem(key) {
         return localStorage.getItem(key)
